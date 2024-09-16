@@ -51,6 +51,20 @@ ul {
     padding-inline-start: 20px;
 }
 
+table {
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    background-color: rgb(143, 143, 255);
+    color: white;
+}
+
+tr:nth-child(odd) {
+    background-color: #8ae6f7;
+}
+
 p.interest {
     font-weight: bold;
     font-size: 1.2em;
@@ -61,10 +75,14 @@ p.interest {
     position: relative;
 }
 
+.container > img {
+    height: 150px;
+}
+
 .top-left {
     color: white;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.2em;
     position: absolute;
     top: 10px;
     left: 10px;
