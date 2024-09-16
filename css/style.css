@@ -14,5 +14,32 @@ header {
 .header-logo {
     height: 50px;
     position: absolute;
-    bottom: 10px;
+    bottom: 0px;
+    margin: 5px;
+}
+
+main {
+    margin: 5px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.writer-date {
+    color: rgb(160, 160, 160);
+    margin-bottom: 30px;
+}
+
+figcaption {
+    font-size: 0.8em;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
