@@ -26,8 +26,11 @@ h1 {
     font-size: 2em;
 }
 
-.writer-date {
+.writer-date, p.interest {
     color: rgb(160, 160, 160);
+}
+
+.writer-date {
     margin-bottom: 30px;
 }
 
@@ -46,4 +49,23 @@ p, ul {
 
 ul {
     padding-inline-start: 20px;
+}
+
+p.interest {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.container {
+    position: relative;
+}
+
+.top-left {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
