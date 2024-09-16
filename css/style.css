@@ -6,7 +6,7 @@
 header {
     position: relative;
     height: 100px;
-    background-color: rgb(127, 157, 240);
+    background-color: rgb(68, 160, 255);
     background-image: url('../img/pattern.png');
     background-size: contain;
 }
@@ -16,6 +16,11 @@ header {
     position: absolute;
     bottom: 0px;
     margin: 5px;
+}
+
+a {
+    color: rgb(90, 190, 240);
+    text-decoration: none;
 }
 
 main {
@@ -57,12 +62,12 @@ table {
 
 th {
     text-align: left;
-    background-color: rgb(143, 143, 255);
+    background-color: rgb(30, 170, 230);
     color: white;
 }
 
 tr:nth-child(odd) {
-    background-color: #8ae6f7;
+    background-color: rgb(180, 230, 240);
 }
 
 p.interest {
