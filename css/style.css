@@ -52,12 +52,12 @@ p, ul {
     margin-bottom: 20px;
 }
 
-p > mark {
-    background-color: yellow;
+ul {
+    padding-left: 20px;
 }
 
-ul {
-    padding-inline-start: 20px;
+p > mark {
+    background-color: yellow;
 }
 
 table {
