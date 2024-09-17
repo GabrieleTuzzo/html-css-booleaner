@@ -3,12 +3,16 @@
     margin: 0;
 }
 
+main, aside {
+    padding: 5px;
+}
+
 header {
     position: relative;
     height: 100px;
     background-color: rgb(68, 160, 255);
     background-image: url('../img/pattern.png');
-    background-size: contain;
+    background-size: 300px auto;
 }
 
 .header-logo {
@@ -18,20 +22,11 @@ header {
     margin: 5px;
 }
 
-a {
-    color: rgb(90, 190, 240);
-    text-decoration: none;
-}
-
-main {
-    margin: 5px;
-}
-
 h1 {
     font-size: 2em;
 }
 
-.writer-date, p.interest {
+.writer-date, h2.interest {
     color: rgb(160, 160, 160);
 }
 
@@ -39,17 +34,26 @@ h1 {
     margin-bottom: 30px;
 }
 
-figcaption {
+.writer-date > a {
+    color: rgb(90, 190, 240);
+    text-decoration: none;
+}
+
+.writer-date > time {
     font-size: 0.8em;
 }
 
-.highlight {
-    background-color: yellow;
+figcaption {
+    font-size: 0.8em;
 }
 
 p, ul {
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+p > mark {
+    background-color: yellow;
 }
 
 ul {
@@ -58,6 +62,7 @@ ul {
 
 table {
     border-collapse: collapse;
+    width: 100%;
 }
 
 th {
@@ -70,7 +75,15 @@ tr:nth-child(odd) {
     background-color: rgb(180, 230, 240);
 }
 
-p.interest {
+.w-25 {
+    width: 25%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+h2.interest {
     font-weight: bold;
     font-size: 1.2em;
     margin-bottom: 5px;
@@ -92,3 +105,4 @@ p.interest {
     top: 10px;
     left: 10px;
 }
+
